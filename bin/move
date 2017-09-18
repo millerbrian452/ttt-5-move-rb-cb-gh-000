@@ -12,8 +12,8 @@ input = gets.strip
 
 input = input_to_index(input)
 
-new_board = move(board, input, "X")
+move(board, input, "X")
 
-display_board(new_board)
+display_board(board)
 
 # Code your CLI Here
