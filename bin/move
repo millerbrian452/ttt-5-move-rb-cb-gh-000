@@ -14,4 +14,6 @@ input = input_to_index(input)
 
 new_board = move(board, input, "X")
 
+display_board(new_board)
+
 # Code your CLI Here
