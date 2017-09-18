@@ -12,7 +12,4 @@ input = gets.strip
 
 input_to_index(input)
 
-move(board, input_to_index, char)
-
-
 # Code your CLI Here
